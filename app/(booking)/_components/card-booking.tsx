@@ -27,6 +27,7 @@ export const CardBooking = ({ id, province, start_book, end_book }: Props) => {
         <Card
             cover={
                 <img
+                    className="bg-cover"
                     alt="example"
                     src="https://nplaw.vn/upload/images/thuong-mai/hinh-anh-1(7).jpeg"
                 />

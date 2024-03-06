@@ -81,25 +81,25 @@ export const CarouselImage = () => {
                 <div className="w-full  h-[430px] ">
                     <img
                         src="https://r-xx.bstatic.com/xdata/images/xphoto/2880x868/313564245.jpeg?k=c677d4c63f8a8218d275614559b8ccd5dc5f169b44667c3ff46328091c225b13&o="
-                        className="w-full h-full"
+                        className="w-full h-full bg-cover"
                     />
                 </div>
                 <div className="w-full  h-[430px]">
                     <img
                         src="https://ik.imagekit.io/tvlk/blog/2022/02/dia-diem-du-lich-viet-nam-cover.jpeg"
-                        className="w-full h-full"
+                        className="w-full h-full bg-cover"
                     />
                 </div>
                 <div className="w-full  h-[430px]">
                     <img
                         src="https://www.seaplanes.vn/blog/wp-content/uploads/2017/05/hanoi-full-day-city-tour.jpg"
-                        className="w-full h-full"
+                        className="w-full h-full bg-cover"
                     />
                 </div>
                 <div className="w-full  h-[430px]">
                     <img
                         src="https://mia.vn/media/uploads/blog-du-lich/chi-phi-du-lich-ha-giang-tu-tuc-danh-cho-1-nguoi-01-1642920538.jpeg"
-                        className="w-full h-full"
+                        className="w-full h-full bg-cover"
                     />
                 </div>
             </Carousel>

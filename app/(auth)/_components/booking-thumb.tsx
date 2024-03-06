@@ -8,7 +8,7 @@ export const BookingThumb = () => {
                 width={300}
                 height={100}
                 alt="Booking Logo"
-                className="-ml-7 py-4 w-4/5 rounded-md"
+                className="-ml-7 py-4 w-4/5 rounded-md bg-cover"
             />
             <p className=" text-2xl ld:text-3xl font-semibold">
                 Booking giúp bạn có nhiều nghiệm tốt hơn
