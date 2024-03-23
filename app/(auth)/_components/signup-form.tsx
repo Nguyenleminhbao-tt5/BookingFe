@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Form, Input, Select } from "antd";
+import { Button, Form, Input, Select, message } from "antd";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Loading } from "@/components/ui/loading";
@@ -39,6 +39,7 @@ export const SignUpForm = () => {
                     "accessToken",
                     String(response.data.accessToken)
                 );
+                message.success("Sign up successfully");
                 router.push("/");
             }
         } catch (err) {

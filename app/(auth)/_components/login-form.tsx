@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 import { LockOutlined, UserOutlined } from "@ant-design/icons";
-import { Button, Checkbox, Form, Input } from "antd";
+import { Button, Checkbox, Form, Input, message } from "antd";
 import { Loading } from "@/components/ui/loading";
 import AuthService from "@/services/api/auth-api";
 import useUser from "@/stores/user-store";
@@ -35,9 +35,10 @@ export const LoginForm = () => {
                         "accessToken",
                         String(response.data.accessToken)
                     );
+                    message.success("Login successfully");
                     if (response.data.is_admin) router.push("/admin");
                     else router.push("/");
-                }
+                } else message?.error(response?.data);
             }
         } catch (err) {
             throw err;
