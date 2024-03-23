@@ -13,6 +13,12 @@ $ yarn dev
     email: admin@gmail.com
     password: 123456
 
-### Deploy on Vercel
+## Link github Backend
 
-[Vercel](https://booking-fe.vercel.app) : link deploy on vercel.
+[Backend](https://github.com/Nguyenleminhbao-tt5/BookingBe.git) : link github back-end
+[Vercel](https://booking-be-beta.vercel.app/) : link deploy back-end on vercel.
+[Documentation](https://documenter.getpostman.com/view/23216504/2sA2xe5ZtL) : link api documentation.
+
+## Deploy on Vercel
+
+[Vercel](https://booking-fe.vercel.app) : link deploy front-end on vercel.
